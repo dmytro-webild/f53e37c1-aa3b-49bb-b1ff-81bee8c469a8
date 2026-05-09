@@ -51,7 +51,7 @@ export default function LandingPage() {
           text: "Get in touch",          href: "#contact"},
       ]}
       buttonAnimation="slide-up"
-      imageSrc="http://img.b2bpic.net/free-photo/woman-taking-photos-handsome-man_23-2148532556.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTj4X7M8sj3Q8UP6QsbJBOWvOB/uploaded-1778317503429-8ktycvpt.jpg"
     />
   </div>
 
