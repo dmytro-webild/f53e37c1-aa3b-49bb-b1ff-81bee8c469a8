@@ -155,7 +155,7 @@ export default function LandingPage() {
       title="Frequently Asked Questions"
       description="Common questions regarding my workflow and services."
       faqsAnimation="slide-up"
-      imageSrc="http://img.b2bpic.net/free-photo/3d-rendring-astronaut_23-2151128655.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTj4X7M8sj3Q8UP6QsbJBOWvOB/uploaded-1778316626205-bad99016.jpg"
     />
   </div>
 
