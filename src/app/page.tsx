@@ -32,31 +32,23 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "About",
-          id: "about",
-        },
+          name: "About",          id: "about"},
         {
-          name: "Projects",
-          id: "projects",
-        },
+          name: "Projects",          id: "projects"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="Shuvo ZiaN"
     />
   </div>
 
-  <div id="hero" data-section="hero">
+  <div id="hero" data-section="hero" style={{ backgroundImage: "url('https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTj4X7M8sj3Q8UP6QsbJBOWvOB/uploaded-1778317307122-i0bk2t4o.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <HeroLogo
       logoText="Shuvo ZiaN"
       description="Creative developer and digital strategist building modern solutions for the future of the web."
       buttons={[
         {
-          text: "Get in touch",
-          href: "#contact",
-        },
+          text: "Get in touch",          href: "#contact"},
       ]}
       buttonAnimation="slide-up"
       imageSrc="http://img.b2bpic.net/free-photo/woman-taking-photos-handsome-man_23-2148532556.jpg"
@@ -79,19 +71,13 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Web Development",
-          description: "High-performance websites built on modern stacks.",
-          icon: Code,
+          title: "Web Development",          description: "High-performance websites built on modern stacks.",          icon: Code,
         },
         {
-          title: "UI/UX Design",
-          description: "User-centric design systems for seamless engagement.",
-          icon: Palette,
+          title: "UI/UX Design",          description: "User-centric design systems for seamless engagement.",          icon: Palette,
         },
         {
-          title: "Digital Strategy",
-          description: "Data-driven roadmaps to maximize your market reach.",
-          icon: Rocket,
+          title: "Digital Strategy",          description: "Data-driven roadmaps to maximize your market reach.",          icon: Rocket,
         },
       ]}
       title="Core Services"
@@ -106,59 +92,28 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          name: "Sarah J.",
-          role: "Project Manager",
-          company: "Tech Innovate",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/casual-smile-street-style-background-spring_1139-777.jpg",
-        },
+          id: "1",          name: "Sarah J.",          role: "Project Manager",          company: "Tech Innovate",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/casual-smile-street-style-background-spring_1139-777.jpg"},
         {
-          id: "2",
-          name: "Mark D.",
-          role: "Creative Lead",
-          company: "Design Studio",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/coffee-time-me-please_329181-17310.jpg",
-        },
+          id: "2",          name: "Mark D.",          role: "Creative Lead",          company: "Design Studio",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/coffee-time-me-please_329181-17310.jpg"},
         {
-          id: "3",
-          name: "Linda W.",
-          role: "Founder",
-          company: "Startup Hub",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-successful-business-team-taking-selfie-outside_74855-2930.jpg",
-        },
+          id: "3",          name: "Linda W.",          role: "Founder",          company: "Startup Hub",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-successful-business-team-taking-selfie-outside_74855-2930.jpg"},
         {
-          id: "4",
-          name: "David M.",
-          role: "Marketing Dir",
-          company: "Growth Agency",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-wearing-pajamas-while-sitting-bed_273609-13213.jpg",
-        },
+          id: "4",          name: "David M.",          role: "Marketing Dir",          company: "Growth Agency",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-wearing-pajamas-while-sitting-bed_273609-13213.jpg"},
         {
-          id: "5",
-          name: "Elena R.",
-          role: "Engineer",
-          company: "Web Solutions",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiley-business-man_23-2148514859.jpg",
-        },
+          id: "5",          name: "Elena R.",          role: "Engineer",          company: "Web Solutions",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiley-business-man_23-2148514859.jpg"},
       ]}
       kpiItems={[
         {
-          value: "50+",
-          label: "Projects Completed",
-        },
+          value: "50+",          label: "Projects Completed"},
         {
-          value: "100%",
-          label: "Client Satisfaction",
-        },
+          value: "100%",          label: "Client Satisfaction"},
         {
-          value: "5+",
-          label: "Years Experience",
-        },
+          value: "5+",          label: "Years Experience"},
       ]}
       title="Trusted by Peers"
       description="Hear what collaborators and partners have to say."
@@ -173,20 +128,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",
-          value: "1.2M",
-          description: "Users Impacted",
-        },
+          id: "m1",          value: "1.2M",          description: "Users Impacted"},
         {
-          id: "m2",
-          value: "99.9%",
-          description: "Uptime Record",
-        },
+          id: "m2",          value: "99.9%",          description: "Uptime Record"},
         {
-          id: "m3",
-          value: "200+",
-          description: "Deployed Features",
-        },
+          id: "m3",          value: "200+",          description: "Deployed Features"},
       ]}
       title="Key Accomplishments"
       description="Quantifiable results driving success."
@@ -199,20 +145,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "f1",
-          title: "What is your typical project timeline?",
-          content: "Timelines vary depending on project complexity.",
-        },
+          id: "f1",          title: "What is your typical project timeline?",          content: "Timelines vary depending on project complexity."},
         {
-          id: "f2",
-          title: "Do you offer ongoing support?",
-          content: "Yes, I offer monthly maintenance packages.",
-        },
+          id: "f2",          title: "Do you offer ongoing support?",          content: "Yes, I offer monthly maintenance packages."},
         {
-          id: "f3",
-          title: "How can we start a project?",
-          content: "Fill out the contact form and I'll get back to you.",
-        },
+          id: "f3",          title: "How can we start a project?",          content: "Fill out the contact form and I'll get back to you."},
       ]}
       mediaAnimation="slide-up"
       title="Frequently Asked Questions"
@@ -229,15 +166,9 @@ export default function LandingPage() {
       description="Send a message and start building something amazing together."
       inputs={[
         {
-          name: "name",
-          type: "text",
-          placeholder: "Your Name",
-        },
+          name: "name",          type: "text",          placeholder: "Your Name"},
         {
-          name: "email",
-          type: "email",
-          placeholder: "Your Email",
-        },
+          name: "email",          type: "email",          placeholder: "Your Email"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/architectural-black-white-background_23-2150530907.jpg"
     />
@@ -247,13 +178,9 @@ export default function LandingPage() {
       <FooterLogoReveal
       logoText="Shuvo ZiaN"
       leftLink={{
-        text: "Privacy Policy",
-        href: "#",
-      }}
+        text: "Privacy Policy",        href: "#"}}
       rightLink={{
-        text: "Terms of Service",
-        href: "#",
-      }}
+        text: "Terms of Service",        href: "#"}}
     />
   </div>
       </ReactLenis>
