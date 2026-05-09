@@ -60,7 +60,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="About Me"
       description="I'm a passionate creative professional with a deep focus on crafting intuitive digital experiences that combine aesthetics with high-performance functionality."
-      imageSrc="http://img.b2bpic.net/free-photo/front-view-boy-posing-studio_23-2149596296.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTj4X7M8sj3Q8UP6QsbJBOWvOB/uploaded-1778317654184-jgu9kwq6.jpg"
     />
   </div>
 
