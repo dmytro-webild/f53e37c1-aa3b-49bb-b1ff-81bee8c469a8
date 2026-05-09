@@ -92,14 +92,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",          name: "Sarah J.",          role: "Project Manager",          company: "Tech Innovate",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/casual-smile-street-style-background-spring_1139-777.jpg"},
+          id: "1",          name: "SHUVO ",          role: "Project Manager",          company: "Tech Innovate",          rating: 5,
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTj4X7M8sj3Q8UP6QsbJBOWvOB/uploaded-1778316293836-yeexqyo1.jpg"},
         {
-          id: "2",          name: "Mark D.",          role: "Creative Lead",          company: "Design Studio",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/coffee-time-me-please_329181-17310.jpg"},
+          id: "2",          name: "imtiaz shoyeb ",          role: "Creative Lead",          company: "Design Studio",          rating: 5,
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTj4X7M8sj3Q8UP6QsbJBOWvOB/uploaded-1778318304372-5480spyz.jpg"},
         {
-          id: "3",          name: "Linda W.",          role: "Founder",          company: "Startup Hub",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-successful-business-team-taking-selfie-outside_74855-2930.jpg"},
+          id: "3",          name: "",          role: "Founder",          company: "Startup Hub",          rating: 5,
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTj4X7M8sj3Q8UP6QsbJBOWvOB/uploaded-1778318321044-wopbb05e.jpg"},
         {
           id: "4",          name: "David M.",          role: "Marketing Dir",          company: "Growth Agency",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/woman-wearing-pajamas-while-sitting-bed_273609-13213.jpg"},
