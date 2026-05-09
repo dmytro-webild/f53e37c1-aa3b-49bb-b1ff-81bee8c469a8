@@ -45,7 +45,7 @@ export default function LandingPage() {
   <div id="hero" data-section="hero" style={{ backgroundImage: "url('https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTj4X7M8sj3Q8UP6QsbJBOWvOB/uploaded-1778317307122-i0bk2t4o.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <HeroLogo
       logoText="Shuvo ZiaN"
-      description="Creative developer and digital strategist building modern solutions for the future of the web."
+      description="I transform complex business requirements into high-performance digital products that scale revenue and enhance user engagement."
       buttons={[
         {
           text: "Get in touch",          href: "#contact"},
